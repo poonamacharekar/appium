@@ -1,90 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-05T20:43:06 GMT-12:00" name="Default suite" finished-at="2021-03-05T20:43:37 GMT-12:00" duration-ms="31727">
+  <suite started-at="2021-03-08T23:28:16 GMT-12:00" name="Default suite" finished-at="2021-03-08T23:28:39 GMT-12:00" duration-ms="22863">
     <groups>
     </groups>
-    <test started-at="2021-03-05T20:43:06 GMT-12:00" name="Default test" finished-at="2021-03-05T20:43:37 GMT-12:00" duration-ms="31727">
-      <class name="appiummobile.General_Stores_scroll">
-        <test-method signature="generalstorescroll()[pri:0, instance:appiummobile.General_Stores_scroll@368247b9]" started-at="2021-03-05T20:43:06 GMT-12:00" name="generalstorescroll" finished-at="2021-03-05T20:43:37 GMT-12:00" duration-ms="31633" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 380 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DESKTOP-7KVO2NO', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.androidsample.generalstore, statBarHeight=84, noReset=true, viewportRect={top=84, left=0, width=1080, height=2057}, deviceName=F6VOMNOFOR9DOZVO, UDID=F6VOMNOFOR9DOZVO, platform=LINUX, deviceUDID=F6VOMNOFOR9DOZVO, desired={appPackage=com.androidsample.generalstore, appActivity=.SplashActivity, noReset=true, automationName=Appium, platformName=Android, deviceName=vivo 1907, UDID=F6VOMNOFOR9DOZVO}, platformVersion=10, webStorageEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=29, deviceManufacturer=vivo, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=.SplashActivity, pixelRatio=3, locationContextEnabled=false, deviceScreenDensity=480, deviceModel=vivo 1907}]
-Session ID: a3c78984-619e-4f2b-9fb0-d396ea7890b2
-*** Element info: {Using=xpath, value=//android.widget.EditText[@text='PG 3']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 380 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DESKTOP-7KVO2NO', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.androidsample.generalstore, statBarHeight=84, noReset=true, viewportRect={top=84, left=0, width=1080, height=2057}, deviceName=F6VOMNOFOR9DOZVO, UDID=F6VOMNOFOR9DOZVO, platform=LINUX, deviceUDID=F6VOMNOFOR9DOZVO, desired={appPackage=com.androidsample.generalstore, appActivity=.SplashActivity, noReset=true, automationName=Appium, platformName=Android, deviceName=vivo 1907, UDID=F6VOMNOFOR9DOZVO}, platformVersion=10, webStorageEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=29, deviceManufacturer=vivo, deviceScreenSize=1080x2340, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=.SplashActivity, pixelRatio=3, locationContextEnabled=false, deviceScreenDensity=480, deviceModel=vivo 1907}]
-Session ID: a3c78984-619e-4f2b-9fb0-d396ea7890b2
-*** Element info: {Using=xpath, value=//android.widget.EditText[@text='PG 3']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
-at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-at appiummobile.General_Stores_scroll.generalstorescroll(General_Stores_scroll.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+    <test started-at="2021-03-08T23:28:16 GMT-12:00" name="Default test" finished-at="2021-03-08T23:28:39 GMT-12:00" duration-ms="22863">
+      <class name="appiummobile.Fromcommandlinesreverstart">
+        <test-method signature="commandlinesreverstart()[pri:0, instance:appiummobile.Fromcommandlinesreverstart@55a147cc]" started-at="2021-03-08T23:28:16 GMT-12:00" name="commandlinesreverstart" finished-at="2021-03-08T23:28:39 GMT-12:00" duration-ms="22776" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generalstorescroll -->
-      </class> <!-- appiummobile.General_Stores_scroll -->
+        </test-method> <!-- commandlinesreverstart -->
+      </class> <!-- appiummobile.Fromcommandlinesreverstart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

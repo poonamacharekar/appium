@@ -19,7 +19,7 @@ public class Api_Demo_Launch {
 	cap.setCapability("platformName","10");
 	cap.setCapability("UDID","F6VOMNOFOR9DOZVO");
 	cap.setCapability("appPackage","io.appium.android.apis");
-	cap.setCapability("appActivity", ".appwidget.ExampleAppWidgetConfigure");
+	cap.setCapability("appActivity", ".ApiDemos");
 	
 	URL url= new URL("http://localhost:4723/wd/hub");
 	AndroidDriver driver= new AndroidDriver(url,cap);

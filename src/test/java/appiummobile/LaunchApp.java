@@ -1,10 +1,14 @@
 package appiummobile;
 
 
+import java.io.File;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
@@ -36,6 +40,13 @@ public class LaunchApp {
 	
 	driver.findElementById("com.android.bbkcalculator:id/digit3").click();
 	driver.findElementById("com.android.bbkcalculator:id/equal").click();
+	
+	TakesScreenshot t = (TakesScreenshot)driver;
+	File src = t.getScreenshotAs(OutputType.FILE);
+	File dest = new File("./pic/cal.png");
+	FileUtils.copyFile(src, dest);
+	
+	
 	
 }
 }
